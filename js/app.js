@@ -7,7 +7,7 @@ const loadUni = () => {
     const searchInput = document.getElementById('search-text');
     const search = searchInput.value;
     searchInput.value ='';
-    const url = `http://universities.hipolabs.com/search?name=${search}country=${search}`
+    const url = `http://universities.hipolabs.com/search?country=${search}`
     fetch(url)
     .then(res => res.json())
     .then(data => displayUniversity(data))
