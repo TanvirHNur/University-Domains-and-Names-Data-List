@@ -1,0 +1,115 @@
+
+.bodys{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.7)),url(images/uni.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 30px;
+}
+
+.uni-color{
+    color: #2F2FA2;
+}
+.country-color{
+    color: #79465D;
+}
+
+/* toggle spinner */
+#spinner{
+    margin: 25%;
+    margin-top: 10%;
+    margin-left: 45%;
+    display: none;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 6px 15px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 3px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+.red-btn:hover{
+    color: #fff;
+}
+.text-color{
+    color: #fff;
+    margin: 0% 30%;
+}
+
+/* Media query */
+@media (max-width: 768px) { 
+    .input-text{
+        width: 80% !important;
+    }
+ }
+
+ .university-col{
+    flex-basis: 31%;
+    background: #D8E9F2!important;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20 10px;
+    box-sizing: border-box;
+
+}
+h3{
+    text-align: center;
+    font-weight: 600px;
+    margin-top: 10px;
+}
+.university-col:hover{
+    box-shadow: 0 0 20px 0px rgb(0,0,0,0.5) !important;
+    background: #fff3f3 !important;
+
+
+}
+
+.text-btn{
+    text-decoration: none;
+}
+.text-btn:hover{
+    color: #fff;
+}
+/* footer*/
+.footer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.icon .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px o;
+}
+.fa-heart-o{
+    color: #f44336;
+}
+.my-color{
+    color: #fff;
+}
