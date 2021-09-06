@@ -101,8 +101,8 @@ const loadUni1 = () => {
     .then(res => res.json())
     .then(data => displayUniversity1(data.slice(24,29)))
 
-    // toggole('spinner', 'block')
-    // toggole('uni-section', 'none')
+    toggole('spinner', 'block')
+    toggole('uni-section', 'none')
 }
 loadUni1();
 
@@ -133,6 +133,6 @@ const container = document.getElementById('universities');
   console.log(university)
   container.appendChild(div)
   } )
-  // toggole('spinner', 'none')
-  // toggole('uni-section', 'block')
+  toggole('spinner', 'none')
+  toggole('uni-section', 'block')
  }
