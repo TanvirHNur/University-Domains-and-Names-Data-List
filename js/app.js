@@ -16,6 +16,16 @@ const loadUni = () => {
     toggole('uni-section', 'none')
 }
 
+const search = document.getElementById('search-text');
+search.addEventListener('keypress', function(event) {
+    if (event.keyCode === 13) {
+     event.preventDefault();
+     loadUni()
+    }
+  });
+
+
+
 const displayUniversity = universities => {
     const container = document.getElementById('universities');
     container.textContent = '';
